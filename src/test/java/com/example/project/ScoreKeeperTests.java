@@ -39,5 +39,11 @@
         assertEquals(1, s.getTeamApoints());
     }
 
+    @Test 
+    void teamBScoresOne(){
+        s.scoreTeamB1();
+        s.getTeamBpoints();
+        assertEquals(1, s.getTeamBpoints());
+    }
     
  }
