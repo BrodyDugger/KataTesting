@@ -11,8 +11,8 @@
 package com.example.project;
 
 public class ScoreKeeper {
-    int teamApoints = 0;
-    int teamBpoints = 0;
+    private int teamApoints = 0;
+    private int teamBpoints = 0;
     
     public int getTeamApoints() {
         return teamApoints;
