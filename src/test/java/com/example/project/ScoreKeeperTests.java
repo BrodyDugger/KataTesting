@@ -50,4 +50,10 @@ import org.junit.jupiter.api.DisplayName;
         s.scoreTeamA2();
         assertEquals(2, s.getTeamApoints());
     }
+
+    @Test 
+    void teamBScoresTwo(){
+        s.scoreTeamB2();
+        assertEquals(2, s.getTeamBpoints());
+    }
  }
