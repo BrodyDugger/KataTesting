@@ -22,27 +22,23 @@
 
     @Test
     void teamAseepoints() {
-        s.getTeamApoints();
         assertEquals(0, s.getTeamApoints());
     }
 
     @Test
     void teamBseepoints() {
-        s.getTeamBpoints();
         assertEquals(0, s.getTeamBpoints());
     }
 
     @Test
     void teamAScoresOne(){
         s.scoreTeamA1();
-        s.getTeamApoints();
         assertEquals(1, s.getTeamApoints());
     }
 
     @Test 
     void teamBScoresOne(){
         s.scoreTeamB1();
-        s.getTeamBpoints();
         assertEquals(1, s.getTeamBpoints());
     }
     
