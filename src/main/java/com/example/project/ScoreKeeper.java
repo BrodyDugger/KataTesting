@@ -17,4 +17,8 @@ public class ScoreKeeper {
     public int getTeamApoints() {
         return teamApoints;
     }
+
+    public int getTeamBpoints(){
+        return teamBpoints;
+    }
 }
