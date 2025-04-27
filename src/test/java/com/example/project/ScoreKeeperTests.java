@@ -11,8 +11,10 @@
  package com.example.project;
 
  import static org.junit.jupiter.api.Assertions.assertEquals;
- 
- import org.junit.jupiter.api.DisplayName;
+
+import java.beans.Transient;
+
+import org.junit.jupiter.api.DisplayName;
  import org.junit.jupiter.api.Test;
  import org.junit.jupiter.params.ParameterizedTest;
  import org.junit.jupiter.params.provider.CsvSource;
@@ -42,4 +44,10 @@
         assertEquals(1, s.getTeamBpoints());
     }
     
+
+    @Test 
+    void teamAScoresTwo(){
+        s.scoreTeamA2();
+        assertEquals(2, s.getTeamApoints());
+    }
  }
