@@ -23,4 +23,8 @@
     void teamAseepoints() {
         s.getTeamApoints();
     }
+
+    void teamBseepoints() {
+        s.getTeamBpoints();
+    }
  }
