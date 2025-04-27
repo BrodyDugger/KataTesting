@@ -18,6 +18,9 @@
  import org.junit.jupiter.params.provider.CsvSource;
 
  class ScoreKeeperTests {
-    @Test
     ScoreKeeper s = new ScoreKeeper();
+
+    void teamAseepoints() {
+        s.getTeamApoints();
+    }
  }
