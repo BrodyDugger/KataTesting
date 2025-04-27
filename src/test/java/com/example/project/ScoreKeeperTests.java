@@ -27,4 +27,9 @@
     void teamBseepoints() {
         s.getTeamBpoints();
     }
+
+    void teamAScoresOne(){
+        s.scoreTeamA1();
+        s.getTeamApoints();
+    }
  }
